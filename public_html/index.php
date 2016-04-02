@@ -1,3 +1,4 @@
+<?php require('phpCode/logic.php'); ?>
 <!DOCTYPE html>
 <html lang = "en-US">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -10,10 +11,9 @@ Utopia YI LIU
 </head>
 
 <body>
-<!-- Include Navigation Bar -->
-<div w3-include-HTML="htmlSnippets/navigationbar.html"></div>
-<script src="JavaScripts/w3-include-HTML.js"></script>
-
+<div id = "NaviBar">
+<?php include("./htmlSnippets/navigationbar.html"); ?>
+</div>
 <div class="w3-container">
   <h1> Hi, I am ...</h1>
   <p>Yi LIU </p>
@@ -21,7 +21,7 @@ Utopia YI LIU
   <p>a furture engineer in software development</p>
   <h1> I know about ...  </h1>
   <p>physics, radiation detection and programming<p>
-  <h2> Learn <a href = "about_me.html">more</a> about me...</h2>
+  <h2> Learn <a href = "/pages/about_me.php">more</a> about me...</h2>
   <img src = "images/me.jpg" alt = "myPicture" width = "1024">
 </div>
 

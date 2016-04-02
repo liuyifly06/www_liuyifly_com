@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+<body>
+<ul class="w3-navbar w3-medium w3-blue w3-right-align">
+   <li class="w3-hide-medium w3-hide-large w3-cyan w3-opennav w3-right">
+      <a href="javascript:void(0);" onclick="myFunction()">=</a>
+   </li>
+   <li class="w3-hide-small"><a href="../index.php">HOME</a></li>
+   <li class="w3-hide-small"><a href="../pages/projects.php">PROJECTS</a></li>
+   <li class="w3-hide-small"><a href="../pages/blog.php">BLOG</a></li>
+   <li class="w3-hide-small"><a href="../pages/schedule.php">SCHEDULE</a></li>
+   <li class="w3-hide-small"><a href="../pages/about_me.php">ABOUT</a></li>
+</ul>
+
+<div id="navigation-bar" class="w3-hide w3-hide-large w3-hide-medium">
+  <ul class="w3-navbar w3-right-align w3-blue">
+    <li class="w3-hide-small"><a href="../pages/projects.php">PROJECTS</a></li>
+    <li class="w3-hide-small"><a href="../pages/blog.php">BLOG</a></li>
+    <li class="w3-hide-small"><a href="../pages/schedule.php">SCHEDULE</a></li>
+    <li class="w3-hide-small"><a href="../pages/about_me.php">ABOUT</a></li>
+  </ul>
+</div>
+
+<script>
+function myFunction() {
+    document.getElementById("navigation-bar").classList.toggle("w3-show");
+}
+</script>
+
+</body>
+</html>

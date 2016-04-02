@@ -5,13 +5,7 @@
 </head>
 <body>
 
-<h2>
-<a href = "index.html">HOME</a>
-<a href = "projects.html">PROJECTS</a>
-<a href = "about_me.html">ABOUT</a>
-<a href = "blog.html">BLOG</a>
-<a href = "schedule.html">SCHEDULE</a>
-</h2>
+<?php include("../htmlSnippets/navigationbar.html"); ?>
 
 <h1>Algorithm Problem</h1>
 

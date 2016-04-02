@@ -4,13 +4,9 @@
 <title>Schedule for this site</title>
 </head>
 <body>
-<h2>
-<a href = "index.html">HOME</a>
-<a href = "projects.html">PROJECTS</a>
-<a href = "about_me.html">ABOUT</a>
-<a href = "blog.html">BLOG</a>
-<a href = "schedule.html">SCHEDULE</a>
-</h2>
+
+<?php include("../htmlSnippets/navigationbar.html"); ?>
+
 <h1>First: CSS style and Structure</h1>
 <h2>Interactive JavaSCript.</h2>
 <h2>INtervactive Forum,DataBAse  maybe PHP / SQL ?<h2>
