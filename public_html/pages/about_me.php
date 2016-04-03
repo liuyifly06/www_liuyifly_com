@@ -1,3 +1,4 @@
+<?php require('../phpCode/logic.php'); ?>
 <!DOCTYPE html>
 <html lang = "en-US">
 <head>
@@ -6,7 +7,7 @@
 
 <body>
 
-<?php include("../htmlSnippets/navigationbar.html"); ?>
+<?php includeNaviBar(); ?>
 
 <h1>About me</h1>
 <p>I am currently a PhD student in Illinois at Urbana-Champaign.</p>

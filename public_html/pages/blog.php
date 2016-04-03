@@ -1,3 +1,4 @@
+<?php require('../phpCode/logic.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,7 +6,7 @@
 </head>
 <body>
 
-<?php include("../htmlSnippets/navigationbar.html"); ?>
+<?php includeNaviBar(); ?>
 
 <h1>Algorithm Problem</h1>
 

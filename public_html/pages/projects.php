@@ -1,10 +1,11 @@
+<?php require('../phpCode/logic.php'); ?>
 <!DOCTYPE html>
 <html>
 <head>
 <title>Projects</title>
 </head>
 <body>
-<?php include("../htmlSnippets/navigationbar.html"); ?>
+<?php includeNaviBar(); ?>
 
 <h1>Ongoing Projects</h1>
 
